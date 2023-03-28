@@ -66,15 +66,12 @@ h1{
     font-size: 1.4em;
     left: 30px;
     color: white;
-    /* background-color: #3c3c3c; */
     line-height: 45px;
 }
 /*Навигация the end*/
 
 .wrappir{
     display: grid;
-    /* grid-template-columns: 12fr;
-    grid-template-rows: 12fr; */
     grid-template-columns: repeat(1,12fr);
     
 }
@@ -105,11 +102,16 @@ h2,time{
     left: 20px;
 }
 
+.events{
+    margin-bottom: 14px;
+    margin-top: 14px;
+}
+
 .Public_info{
     display: inline-grid;
     margin-top: 30px;
-    width: 40%;
-    height: 60%;
+    width: 33%;
+    height: 63%;
     grid-template-columns: 2fr;
     background-color: white;
     box-shadow: 2px 2px 2px 2px grey;
@@ -150,7 +152,7 @@ h2,time{
     grid-template-rows: 14fr 1fr;
     background: white;
     box-shadow: 2px 2px 2px 2px grey;
-    margin-top: 80px;
+    margin-top: 20px;
     
 }
 
