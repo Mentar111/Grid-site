@@ -96,7 +96,7 @@ h1{
 .lorem_text{
     display: grid;
     margin: 20px;
-    font: 1em sans-serif;
+    font: 1.2em sans-serif;
 }
 
 h2,time{
@@ -109,11 +109,10 @@ h2,time{
     display: inline-grid;
     margin-top: 30px;
     width: 40%;
-    height: 70%;
+    height: 60%;
     grid-template-columns: 2fr;
     background-color: white;
     box-shadow: 2px 2px 2px 2px grey;
-    
    
    
 }
@@ -146,11 +145,12 @@ h2,time{
 
 .block_three{
     display: grid;
-    width: 30%;
+    width: 100%;
     grid-template-columns: 52fr 1fr;
     grid-template-rows: 14fr 1fr;
     background: white;
     box-shadow: 2px 2px 2px 2px grey;
+    margin-top: 80px;
     
 }
 
